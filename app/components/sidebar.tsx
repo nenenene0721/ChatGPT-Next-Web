@@ -1,4 +1,3 @@
-
 import React, { Fragment, useEffect, useMemo, useRef, useState } from "react";
 
 import styles from "./home.module.scss";
@@ -255,14 +254,6 @@ export function SideBar(props: { className?: string }) {
         subTitle="Ciallo～(∠・ω< )⌒☆"
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
-        children={
- <div style={{ display: "flex", gap: "10px", marginTop: "10px" }}>
- <a href="https://neneai.net/" target="_blank" rel="noopener noreferrer" style={{ color: "#4d7fff" }}>
-线路1 </a>
- <a href="https://chatai.neneai.net/" target="_blank" rel="noopener noreferrer" style={{ color: "#4d7fff" }}>
-线路2 </a>
- </div>
- }
       >
 <div className={styles["sidebar-header-bar"]}>
   <IconButton
