@@ -1,3 +1,4 @@
+"use client";
 import React, { Fragment, useEffect, useMemo, useRef, useState } from "react";
 
 import styles from "./home.module.scss";
