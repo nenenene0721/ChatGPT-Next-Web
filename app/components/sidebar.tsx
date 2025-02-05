@@ -255,15 +255,15 @@ export function SideBar(props: { className?: string }) {
         subTitle="Ciallo～(∠・ω< )⌒☆"
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
+        children={
+ <div style={{ display: "flex", gap: "10px", marginTop: "10px" }}>
+ <a href="https://neneai.net/" target="_blank" rel="noopener noreferrer" style={{ color: "#4d7fff" }}>
+线路1 </a>
+ <a href="https://chatai.neneai.net/" target="_blank" rel="noopener noreferrer" style={{ color: "#4d7fff" }}>
+线路2 </a>
+ </div>
+ }
       >
-  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '0 16px' }}>
-    <div>
-      线路1 <a href="https://neneai.net/" target="_blank" rel="noopener noreferrer">https://neneai.net/</a>
-    </div>
-    <div>
-      线路2 <a href="https://chatai.neneai.net/" target="_blank" rel="noopener noreferrer">https://chatai.neneai.net/</a>
-    </div>
-  </div>
 <div className={styles["sidebar-header-bar"]}>
   <IconButton
     icon={<MaskIcon />}
