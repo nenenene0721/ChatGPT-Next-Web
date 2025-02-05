@@ -255,20 +255,6 @@ export function SideBar(props: { className?: string }) {
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
-<div className={styles["sidebar-header-bar"]}>
-  <IconButton
-    icon={<MaskIcon />}
-    text={shouldNarrow ? undefined : Locale.Mask.Name}
-    className={styles["sidebar-bar-button"]}
-    onClick={() => {
-      if (config.dontShowMaskSplashScreen !== true) {
-        navigate(Path.NewChat, { state: { fromHome: true } });
-      } else {
-        navigate(Path.Masks, { state: { fromHome: true } });
-      }
-    }}
-    shadow
-  />
         <div className={styles["sidebar-header-bar"]}>
           <IconButton
             icon={<MaskIcon />}
