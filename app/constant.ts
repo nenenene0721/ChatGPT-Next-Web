@@ -34,7 +34,7 @@ export const XAI_BASE_URL = "https://api.x.ai";
 
 export const CHATGLM_BASE_URL = "https://open.bigmodel.cn";
 
-export const SILICONFLOW_BASE_URL = "https://api.siliconflow.cn";
+export const SILICONFLOW_BASE_URL = "https://api.siliconflow.com";
 
 export const CACHE_URL_PREFIX = "/api/cache";
 export const UPLOAD_URL = `${CACHE_URL_PREFIX}/upload`;
