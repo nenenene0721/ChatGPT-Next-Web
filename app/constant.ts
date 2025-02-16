@@ -464,6 +464,7 @@ export const VISION_MODEL_REGEXES = [
   /^dall-e-3$/, // Matches exactly "dall-e-3"
   /glm-4v/,
   /vl/i,
+  /o1(?!.*preview)/, 
 ];
 
 export const EXCLUDE_VISION_MODEL_REGEXES = [/claude-3-5-haiku-20241022/];
